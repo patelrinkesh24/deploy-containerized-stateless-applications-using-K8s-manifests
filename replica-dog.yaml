@@ -7,7 +7,7 @@ metadata:
     component: dogs-webpage
 spec:
   # modify replicas according to your case
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: dogs
